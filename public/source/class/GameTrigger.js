@@ -11,7 +11,7 @@ IsoMap.GameTrigger = React.createClass({
 	},
 
 
-	getInitialState: function getInitialState() {
+	getInitialState: function () {
 
 		if(Math.random()>this.props.seuil) {
 			return {
